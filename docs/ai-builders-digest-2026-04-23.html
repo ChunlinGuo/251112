@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Builders Digest — 2026年4月23日</title>
+<style>
+  :root {
+    --bg: #fafaf7;
+    --surface: #ffffff;
+    --ink: #1a1a1a;
+    --ink-soft: #4a4a4a;
+    --muted: #7a7a7a;
+    --accent: #c2410c;
+    --accent-soft: #fff4ee;
+    --rule: #ececec;
+    --chip: #f3f2ee;
+    --link: #1f4bdc;
+    --shadow: 0 1px 2px rgba(0,0,0,0.03), 0 6px 24px rgba(20,20,20,0.04);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 28px 96px;
+  }
+  header.masthead {
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 28px;
+    margin-bottom: 48px;
+  }
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  h1.title {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 0 14px;
+    letter-spacing: -0.01em;
+  }
+  .dek {
+    font-size: 17px;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+  .meta {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 22px;
+  }
+  .chip {
+    background: var(--chip);
+    color: var(--ink-soft);
+    padding: 5px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  section.band {
+    margin: 56px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .band-label {
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    color: var(--muted);
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .band-rule {
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+  article.card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 28px 30px;
+    margin: 20px 0;
+    box-shadow: var(--shadow);
+  }
+  article.card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 4px;
+    letter-spacing: -0.005em;
+  }
+  article.card .role {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+  article.card p {
+    margin: 0 0 14px;
+    color: var(--ink);
+  }
+  article.card ul {
+    padding-left: 22px;
+    margin: 0 0 14px;
+  }
+  article.card li {
+    margin-bottom: 10px;
+  }
+  .links {
+    margin-top: 10px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--rule);
+    font-size: 14px;
+    color: var(--muted);
+    word-break: break-all;
+  }
+  .links a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(31,75,220,0.2);
+  }
+  .links a:hover {
+    border-bottom-color: var(--link);
+  }
+  .links .sep {
+    margin: 0 8px;
+    color: #c0c0c0;
+  }
+  article.podcast {
+    background: var(--accent-soft);
+    border-color: #f6dcc7;
+  }
+  .skipnote {
+    margin: 44px 0 12px;
+    padding: 14px 18px;
+    background: var(--chip);
+    border-radius: 10px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  footer.colophon {
+    margin-top: 72px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+  }
+  footer.colophon a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--muted);
+  }
+  @media (max-width: 600px) {
+    .page { padding: 40px 18px 72px; }
+    h1.title { font-size: 30px; }
+    article.card { padding: 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="eyebrow">AI Builders Digest</div>
+    <h1 class="title">AI Builders Digest — 2026年4月23日</h1>
+    <p class="dek">今日份 AI 行业一线 builder 的思考与动向，来自 X/Twitter 与播客的实质性内容精选。</p>
+    <div class="meta">
+      <span class="chip">8 位 builder</span>
+      <span class="chip">1 档播客</span>
+      <span class="chip">约 5 分钟阅读</span>
+    </div>
+  </header>
+
+  <section class="band">
+    <div class="band-label">X / Twitter</div>
+    <div class="band-rule"></div>
+  </section>
+
+  <article class="card">
+    <h2>Aaron Levie</h2>
+    <div class="role">Box CEO</div>
+    <p>针对 enterprise agent 部署写了一段很值得细读的观察：真实世界的企业落地 AI agent 远不是"装上就跑"那么简单——遗留系统要现代化、数据散落在一堆碎片化工具里、大量知识甚至还没被数字化，而且所有改造都要在不中断日常业务的前提下完成。</p>
+    <p>他的判断是 FDE（Forward Deployed Engineer）模式会长期存在，每一次技术浪潮都会催生一批新的咨询公司来承接落地工作，对专注垂直 workflow 的新老厂商都是大机会。一句话：人不会被替代掉，反而会被重新需要。</p>
+    <div class="links"><a href="https://x.com/levie/status/2046805326784319663" target="_blank" rel="noopener">原文 →</a></div>
+  </article>
+
+  <article class="card">
+    <h2>Garry Tan</h2>
+    <div class="role">Y Combinator President &amp; CEO</div>
+    <p>在持续打磨他自己做的 agent 基础设施 GBrain 和 GStack。一条帖子讲如何调校 GBrain 的指令让 OpenClaw/Hermes agent 真正做对事——言外之意是 prompt 和 orchestration 层的工程量被普遍低估了；另一条则上线了 GBrain Minions（一个给 agent 用的 job server）的能力升级。builder-CEO 亲自下场写 agent 工具链这件事本身就是个信号。</p>
+    <div class="links">
+      <a href="https://x.com/garrytan/status/2046846939535495238" target="_blank" rel="noopener">GBrain 调校</a><span class="sep">·</span>
+      <a href="https://x.com/garrytan/status/2046804979160334433" target="_blank" rel="noopener">GBrain Minions 升级</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <h2>Peter Steinberger</h2>
+    <div class="role">OpenClaw 创始人</div>
+    <p>一天内三条实打实的 release note。OpenClaw 2026.4.21 上线，修了 npm 升级后 bundled plugin runtime 依赖会坏掉的问题，加了 Docker E2E 覆盖，Telegram/Discord/Slack 集成不会再被升级搞挂，并 backport 了 OpenAI Image 2 支持。</p>
+    <p>他还把 CI 时间从 8 分钟压到 2 分钟（靠并行化 + Blacksmith 赞助的机器）。另外 discrawl 0.3.0 加入了 Git-backed archive sync——Discord 归档可以推到私有仓库本地查询，终端用户不必再各自配 bot 凭证。典型的 ship-fast 打法。</p>
+    <div class="links">
+      <a href="https://x.com/steipete/status/2046803162590335240" target="_blank" rel="noopener">OpenClaw 2026.4.21</a><span class="sep">·</span>
+      <a href="https://x.com/steipete/status/2046787353906167992" target="_blank" rel="noopener">CI 优化</a><span class="sep">·</span>
+      <a href="https://x.com/steipete/status/2046748122928263345" target="_blank" rel="noopener">discrawl 0.3.0</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <h2>Zara Zhang</h2>
+    <div class="role">Builder / Follow Builders 作者</div>
+    <p>三条都有意思。她推荐了三本"出乎意料地贴合当下 AI 讨论"的老书：The Mythical Man-Month（1975）、Diffusion of Innovations（1962）、Player Piano（1952）——分别对应工程协作、技术扩散、自动化的社会后果。</p>
+    <p>还提到让 Claude Code 生成一个可视化自己当前 context window 的 HTML，是理解 context window 如何工作的野路子但很有效。最后那句"你有没有感觉 agent/AI 工具比你给它们干的活还多"戳中了当下很多人的体验。</p>
+    <div class="links">
+      <a href="https://x.com/zarazhangrui/status/2046853431554719753" target="_blank" rel="noopener">三本老书</a><span class="sep">·</span>
+      <a href="https://x.com/zarazhangrui/status/2046758723998425433" target="_blank" rel="noopener">Context window 可视化</a><span class="sep">·</span>
+      <a href="https://x.com/zarazhangrui/status/2046662237306421608" target="_blank" rel="noopener">Agent 比活多</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <h2>Dan Shipper</h2>
+    <div class="role">Every CEO</div>
+    <p>发布了 Monologue Notes：可以在散步、开会、半夜随口记笔记，定位是"agent-native"——你的 agent 可以从任何地方访问这些笔记。这是他持续在做的一件事：把个人知识库做成 agent 可以直接消费的一等公民数据源，而不是等 agent 绕一圈去查第三方存储。</p>
+    <div class="links"><a href="https://x.com/danshipper/status/2046643173766697214" target="_blank" rel="noopener">原文 →</a></div>
+  </article>
+
+  <article class="card">
+    <h2>Josh Woodward</h2>
+    <div class="role">Google Labs / Gemini App VP</div>
+    <p>Pomelli（Google Labs 的新实验项目，面向中小企业）开放到欧洲，反馈是 SMB 在实际用起来。另外他提到 Stitch 在用 DESIGN.md 这种约定——用一份 design doc 让 AI coding agent 对齐设计意图是目前很多团队在摸索的做法，值得关注是否会形成事实标准。</p>
+    <div class="links">
+      <a href="https://x.com/joshwoodward/status/2046763674199794061" target="_blank" rel="noopener">Pomelli 欧洲上线</a><span class="sep">·</span>
+      <a href="https://x.com/joshwoodward/status/2046754179499356594" target="_blank" rel="noopener">DESIGN.md</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <h2>Amjad Masad</h2>
+    <div class="role">Replit CEO</div>
+    <p>Replit 在国会就 BASED Act 作证，反对大厂通过应用商店规则对 software marketplace 做不对等限制。这是一条开发者工具厂商少见地直接介入政策层的信号，值得关注对整个独立工具生态的连带影响。</p>
+    <div class="links"><a href="https://x.com/amasad/status/2046762468199071765" target="_blank" rel="noopener">原文 →</a></div>
+  </article>
+
+  <article class="card">
+    <h2>Nikunj Kothari</h2>
+    <div class="role">FPV Ventures Partner</div>
+    <p>反常识的一条社交建议：除了 double opt-in intro，挑 10-15 个你真正信任的人，直接给他们"盲 intro"权限——不用每次征询。他说这是最大化 serendipity 最有效的单点改动，是他认识到最有意思的人的最主要途径。对做生态/社区的人很适用。</p>
+    <div class="links"><a href="https://x.com/nikunj/status/2046821454143250636" target="_blank" rel="noopener">原文 →</a></div>
+  </article>
+
+  <section class="band">
+    <div class="band-label">Podcasts</div>
+    <div class="band-rule"></div>
+  </section>
+
+  <article class="card podcast">
+    <h2>AI &amp; I by Every — We Gave Every Employee an AI Agent. Here's What Happened.</h2>
+    <div class="role">Dan Shipper × Willie（Every head of platform）× Brandon（Every COO）</div>
+    <p>这期不是概念层面的讨论，而是一份非常具体的 early-adopter 现场报告：Every 全员在两个月内接入 OpenClaw，过程中踩到的坑和浮现出的设计模式都摊开说。几个核心观察值得 builder 们关注：</p>
+    <ul>
+      <li><strong>"Claude 是大家的，Claw 是我的"</strong>：每个员工的 agent 通过长期互动逐渐映射出本人的风格和知识，公开在 Slack 里使用时，它会继承该员工的信誉——别人信任的其实是人背后的 agent，而不是通用模型。这是 personal AI 相对 shared foundation model 的关键区别。</li>
+      <li><strong>Agent 间的公共协作会涌现出有意思的行为</strong>：一个 agent 卡住时，其他 agent 跳进来"带它冷静"、共享文档、互相 onboarding，一段 know-how 被一个 agent 学会后很快扩散到全组织的 agent 群。</li>
+      <li><strong>信任边界决定价值</strong>：他们点名公开版的 "claws only Facebook"（MoltBook）之所以失效，是因为匿名+无法验证导致信号被稀释；而在内部受信社区里，agent 共享知识的杠杆才真正成立。</li>
+      <li><strong>主理人会为自己 agent 的错误感到羞愧</strong>——这种"它是我的 agent"的心理归属感反过来提高了输出质量，形成正反馈。</li>
+      <li>Every 基于这段经验上线了自己的 hosted OpenClaw 产品 <strong>PlusOne</strong>（当前 waitlist 阶段）。</li>
+    </ul>
+    <p><strong>核心 take</strong>：在 agent 协作里，身份、信任边界、个性化人格是一等公民，比模型能力本身对使用效果影响更大。</p>
+    <div class="links"><a href="https://www.youtube.com/watch?v=SRlTgIhESjw" target="_blank" rel="noopener">收看完整播客 →</a></div>
+  </article>
+
+  <div class="skipnote">
+    今日跳过未产出实质性内容的 builder：Swyx、Peter Yang、Amanda Askell、Thariq、Sam Altman。
+  </div>
+
+  <footer class="colophon">
+    Generated through the Follow Builders skill:
+    <a href="https://github.com/zarazhangrui/follow-builders" target="_blank" rel="noopener">github.com/zarazhangrui/follow-builders</a>
+  </footer>
+
+</div>
+</body>
+</html>
